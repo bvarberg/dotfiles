@@ -1,0 +1,15 @@
+" Mappings
+" for exploring the directory
+nnoremap <leader>e :NERDTree<CR>
+nnoremap <leader>v :Vexplore<CR>
+
+" for window movement
+nnoremap <leader>j <C-w>j
+nnoremap <leader>k <C-w>k
+nnoremap <leader>h <C-w>h
+nnoremap <leader>l <C-w>l
+nnoremap <leader>r <C-w>w  " rotate
+
+" for switching between the last two files
+nnoremap <leader><leader> <c-^>
+

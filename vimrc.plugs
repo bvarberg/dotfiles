@@ -1,0 +1,29 @@
+" Plugins
+" Configure included plugins.
+
+" syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list=1
+let g:syntastic_auto_loc_list=1
+let g:syntastic_check_on_open=1
+let g:syntastic_check_on_wq=0
+
+let g:syntastic_javascript_checkers=['eslint']
+
+" vim-test
+" let g:test#javascript#tap#file_pattern = '\v^.*\.test\.js$'
+nnoremap <silent> <Leader>tt :TestFile<CR>
+nnoremap <silent> <Leader>ts :TestNearest<CR>
+nnoremap <silent> <Leader>tl :TestLast<CR>
+nnoremap <silent> <Leader>ta :TestSuite<CR>
+nnoremap <silent> <leader>gt :TestVisit<CR>
+
+" WindowSwap.vim
+" let g:windowswap_map_keys = 0 "prevent default bindings
+" nnoremap <silent> <leader>yw :call WindowSwap#MarkWindowSwap()<CR>
+" nnoremap <silent> <leader>pw :call WindowSwap#DoWindowSwap()<CR>
+" nnoremap <silent> <leader>ww :call WindowSwap#EasyWindowSwap()<CR>
+

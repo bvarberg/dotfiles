@@ -11,8 +11,14 @@ call plug#begin('~/.vim/plugged')
 Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'
 Plug 'scrooloose/nerdtree'
+Plug 'wesQ3/vim-windowswap'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
+Plug 'janko-m/vim-test'
+Plug 'fatih/vim-go'
+Plug 'vim-syntastic/syntastic'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " Color schemes
 " ---------------
