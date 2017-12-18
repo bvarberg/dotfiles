@@ -1,0 +1,13 @@
+# Operating System
+.DS_Store
+
+# Repositories
+.env/
+
+# Applications
+# - Visual Studio Code
+.vscode
+
+# Personal
+# (and unlikely to cause trouble if ignored globally)
+NOTE_TO_SELF.md
