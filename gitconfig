@@ -8,7 +8,7 @@
   glog = log -E -i --grep
 
 [core]
-  editor = /usr/local/bin/vim
+  autocrlf = input
   excludesfile = ~/.gitignore
 
 [credential]
