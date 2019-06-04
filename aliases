@@ -1,0 +1,2 @@
+alias todo='$EDITOR ~/.todo.md'
+
