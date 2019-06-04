@@ -1,0 +1,25 @@
+[alias]
+  st = status
+  ol = log --oneline
+  nevermind = checkout -- .
+  uncommit = reset --soft HEAD^
+  unstage = reset
+  upstream = rev-parse --abbrev-ref --symbolic-full-name @{u}
+  glog = log -E -i --grep
+
+[core]
+  editor = /usr/local/bin/vim
+  excludesfile = ~/.gitignore
+
+[credential]
+  helper = osxkeychain
+
+[include]
+  path = ~/.gitconfig.local
+
+; [fetch]
+;   prune = true
+
+; [merge]
+;   ff = only
+
