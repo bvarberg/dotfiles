@@ -18,6 +18,12 @@
 [include]
   path = ~/.gitconfig.local
 
+[url "https://"]
+  insteadOf = git://
+
+[hub]
+  protocol = https
+
 ; [fetch]
 ;   prune = true
 
