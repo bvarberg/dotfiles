@@ -4,6 +4,7 @@
   nevermind = checkout -- .
   uncommit = reset --soft HEAD^
   unstage = reset
+  foldin = commit --amend --no-edit
   upstream = rev-parse --abbrev-ref --symbolic-full-name @{u}
   glog = log -E -i --grep
 
