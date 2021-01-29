@@ -1,7 +1,7 @@
 #--------------------------------------------------
 # This section borrowed from thoughtbot/dotfiles
 for function in ~/.zsh/functions/*; do
-  source $function
+  [[ -f $function ]] && source $function
 done
 
 export VISUAL=vim

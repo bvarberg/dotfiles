@@ -1,0 +1,11 @@
+# gdel
+# Use fuzzy-finder to select multiple branches, and delete them.
+# Filters out the currently active branch, if selected in the match.
+
+gdel() {
+  local allBranches branches selected
+  allBranches=$(git --no-pager branch -vv) &&
+  selected=$(echo $allBranches | fzf --multi) &&
+  branches=($(echo $selected | awk '$1 != "*" {print $1}')) &&
+  git branch -D $branches
+}

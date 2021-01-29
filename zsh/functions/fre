@@ -1,0 +1,8 @@
+# fre
+# find and change directories to a repository
+
+fre() {
+  local repo
+  repo=$(find ~/Repos -maxdepth 3 -type d -print 2> /dev/null | fzf +m) &&
+  cd "$repo"
+}
