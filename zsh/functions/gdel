@@ -1,5 +1,5 @@
 # gdel
-# Use fuzzy-finder to select multiple branches, and delete them.
+# Use fuzzy-finder to select multiple branches and delete them.
 # Filters out the currently active branch, if selected in the match.
 
 gdel() {
